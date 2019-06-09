@@ -1,0 +1,37 @@
+h1{
+       color:green;
+       font-size:50px;
+       padding:40px;
+       margin-left:50px;	
+     }
+h2{
+       color:LawnGreen;
+       font-size:50px;
+       padding:40px;
+       border: 1px solid;
+       box-shadow: 5px 10px;
+     }
+a{
+	color:green;
+	font-size:50px;
+	padding:40px;
+}
+img{
+	width:200px;
+	height:130px;
+}
+
+body {
+   background-image:url("img/linux.jpg");
+   background-repeat: no-repeat;
+   background-size: 1400px 600px;
+}
+
+
+ul li{
+	font-size:30px;
+}
+
+ol li{
+	font-size:30px;
+}

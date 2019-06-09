@@ -1,0 +1,270 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Linux Mint Brasil</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	background-color:Lime;
+	position: fixed;
+	width:100%;
+	height:80px;
+	z-index: 9999;
+}
+.banner h1,h2{
+margin-top:28px;
+color:white;
+font-family: 'Press Start 2P', cursive;
+text-align:center;
+padding:10px;
+font-size:50px;
+}
+
+.banner{
+background-image:url(img/banner.jpg);
+padding:70px;
+}
+
+.conteudo h1{
+padding:20px;
+font-size:30px;
+color:ForestGreen;	
+text-align:center;
+font-family: 'Press Start 2P', cursive;
+}
+
+.conteudo h2{
+font-size:25px;
+color:ForestGreen;	
+text-align:center;
+font-family: 'Press Start 2P', cursive;
+}
+
+.conteudo h3,h4,h5,h6{
+padding:10px;
+font-size:20px;
+color:ForestGreen;	
+text-align:center;
+font-family: 'Press Start 2P', cursive;
+}
+.conteudo p{
+font-size:20px;
+text-align:center;
+}
+.conteudo{
+height:1868px;
+}
+
+.conteudo img{
+width:700px;
+}
+
+.bt1 button{
+	float:left;
+	margin-left:150px;
+	border: none; 
+	background: green; 
+	color: white; 
+	padding: 10px;
+	width: 200px;
+	font-size:20px;
+	margin-top: 10px;
+	border-radius: 10px; 
+	cursor: pointer; 
+	box-shadow: 3px 3px 15px #333;
+}
+
+.bt1 button:hover{ background: Chartreuse; }
+
+.bt2 button{
+	float:left;
+	margin-left:200px;
+	border: none; 
+	background: green; 
+	color: white; 
+	padding: 10px;
+	width: 250px;
+	font-size:20px;
+	margin-top: 10px;
+	border-radius: 10px; 
+	cursor: pointer; 
+	box-shadow: 3px 3px 15px #333;
+}
+
+.bt2 button:hover{ background: Chartreuse;}
+
+.bt3 button{ 
+	float:left;
+	margin-left:200px;
+	border: none; 
+	background: green; 
+	color: white; 
+	padding: 10px;
+	width: 250px;
+	font-size:20px;
+	margin-top: 10px;
+	border-radius: 10px; 
+	cursor: pointer; 
+	box-shadow: 3px 3px 15px #333;
+}
+
+.bt3 button:hover{ background: Chartreuse;}
+
+
+.rodape{
+background-color:black;
+overflow: auto;
+}
+.rod-esq,.rod-dir {float: left; margin: 3px;}
+.rod-esq ul li{
+	color:darkgreen;
+    display: block;
+    list-style-type: disc;
+    margin-top: 0.5em;
+    margin-bottom: 0.5 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+	font-size:30px;
+	font-family: 'Press Start 2P', cursive;
+}
+.rod-dir{
+margin-left:180px;
+}
+
+
+</style>
+</head>
+<body>
+<nav class="menu">
+<div class="bt1">
+<a href="linuxsite.html"><button>Pagina Inicial</button></a>
+</div>
+<div class="bt2">
+<a href="caracteristicaslinux.html"><button>Caracteristicas Do Mint</button></a>
+</div>
+<div class="bt3">
+<a href="atulizacaolinux.html"><button>Ultimas Atualizações</button></a>
+</div>
+</nav>
+
+<div class="banner">
+<h1>Ultimas Atualizações</h1>
+</div>
+
+<div class="conteudo">
+<u><h1>Mudanças para o Linux Mint 19 foram anunciadas</h1></u>
+<h2>O ciclo do desenvolvimento do Linux Mint 19 "Tara" ainda 
+está no início, mas já temos várias novidades interessantes 
+que serão incorporadas no futuro lançamento.</h2>
+
+<p>Os desenvolvedores do Linux Mint fizeram um ótimo post em seu 
+blog oficial para falar sobre as futuras implementações do sistema. 
+Muito se espera do Linux Mint, já que nos últimos anos ele virou 
+sinônimo de equilíbrio entre estabilidade e facilidade de uso. 
+Confira agora as novidades que nos aguardam:<p>
+<br>
+<img src="img/mint19.jpg">
+<br>
+<p>Os desenvolvedores do Linux Mint iniciaram o ano agradecendo a colaboração dos 
+patrocinadores do projeto e dos doadores. segundo eles, o último mês teve um record de 
+novos contribuidores e um record de arrecadação, o que é bom para todos nós, pois 
+dá um "gás" a mais para que o time trabalhe.
+Grande parte do foco do Linux Mint, inicialmente, é melhorar o 
+processo de desenvolvimento da distro, tornando-o mais eficiente, 
+com ferramentas que automatizam o processo da caça de bugs em 
+implementações novas de código.<p>
+
+<h3>Mudanças no Linux Mint 19</h3>
+
+<p>Eu sei que todos estão esperando as grandes atualizações que saltam aos olhos, 
+especialmente uma revitalizada no visual da distro, mas até o momento nada sobre 
+isso foi comentado. Tudo bem o ciclo está apenas no início e o novo Mint, que sairá 
+somente perto da metade de ano sob o codinome de Tara, ainda deve trazer muitas coisas interessantes.
+Dentre as coisas que já sabemos que vão começar a fazer parte da nova edição do 
+Linux Mint e estão sendo testadas em imagens alpha que apenas a equipe de desenvolvimento 
+acessa nessa etapa do projeto estão a migração para o GTK 3.22, que é uma versão "antiga" mas muito estável.
+Outras novidades impactam diretamente a interface Cinnamon, padrão da distro. 
+Agora o ambiente gráfico migrará em definitivo e completamente do Python 2.x 
+para o 3.x, migrará do mozjs38 para o mozjs52 e incluirá também a possibilidade 
+de configurar data e hora via rede através do Systemd.<p>
+
+<h4>Caça a bugs no Linux Mint</h4>
+<p>Outro ponto importante comentado foi a postura de mitigação de bugs no sistema. 
+Segundo os devs, são milhares de problemas relatados e quanto mais o sistema se populariza, 
+mais pessoas utilizam o Mint em circunstâncias diversas e em hardwares diversos também, e 
+maior fica a quantidade de problemas relatados.
+No último ciclo, 18.x, do Linux Mint, os desenvolveres teriam coletado cerca de 7.500 bugs, 
+a maior parte reportados pelos próprios usuários, somando GitHub e Launchpad.
+Boa parte desses bugs foram considerados "simples de resolver" e a ideia é não deixar nenhum passar, 
+observando, claro, uma hierarquia de urgência.
+Para ajudar os usuários a entenderem melhor o sistema, inclusive nas formas possíveis de 
+envolvimento com o projeto, muito esforço está sendo aplicado para melhorar a documentação 
+do Linux Mint, atualizá-la e traduzi-la para outros idiomas, facilitando assim o acesso a 
+uma fonte confiável e completa de informações sobre a distro.</p>
+
+<h5>O time do Linux Mint</h5>
+<p>Sabemos que o Linux Mint passou de um desenvolvimento puramente 
+comunitário para o perfil de uma pequena empresa e uma das parte mais 
+interessantes foi a cotação de quantas pessoas participam de alguns segmentos do projeto.
+O time de desenvolvimento do Cinnamon possui 11 pessoas aplicadas, o time 
+dos X-Apps, que são os aplicativos Cross-Interface do Linux Mint 
+(Xapp, Xplayer, Pix, Xed, Xreader, Xviewer, etc) possui 4 desenvolvedores, 
+o restante do time de desenvolvimento que lida com todo o restante tem 6 pessoas envolvidas.</p>
+
+<h6>Usando tecnologias quanto estiverem estáveis</h6>
+<p>Um trecho final da declaração me chamou a atenção, pois nele é revelada 
+um pouco da filosofia de trabalho do Linux Mint, algo que é facilmente 
+deduzível mas que eu nunca tinha visto eles comentarem abertamente, 
+que é: Só usar tecnologias quando elas estiverem prontas.
+Claro, neste caso eles estavam falando sobre tecnologias de desenvolvimento, 
+como o Git, ReadTheDocs e outras, mas isso pode ser aplicado ao perfil da 
+distro como resultado final também.
+Por exemplo, o Linux Mint nem sequer testou o Wayland ainda como servidor 
+gráfico por não acreditar que ele está pronto para usuários finais, 
+a implementação de Flatpaks no Mint Install ainda é opcional, assim como o 
+versionamento de diversos programas menos críticos e até mesmo o temas GTK.
+Aliando isso a base sólida das LTS do Ubuntu com um plano de lançamento 
+que não muda a base de software de forma drástica e a constante caça a bugs, 
+isso garante um Linux Mint mais estável ao longo do tempo.
+Dentre os planos futuros, estão também o desenvolvimento de guias e 
+documentação de segurança para o sistema e também um para os desenvolvedores 
+poderem criar aplicações plenamente compatíveis com o Linux Mint.</p>
+<h6>Resumo das Mudanças</h6>
+<p>Estima-se que o Linux Mint 19 seja lançado em maio / junho de 2018.</p>
+<p>As versões do Linux Mint 19.x serão baseadas no Ubuntu 18.04 LTS e suportadas até 2023.</p>
+<p>O Linux Mint 19.x usará o GTK 3.22.</p>
+<p>Linux Mint 19 terá melhor suporte para HIDPI</p>
+<p>Um Mint Welcome app repaginado</p>
+<p>E melhorias no Mint Update</p>
+
+<h6>Introdução ao GTK + 3</h6>
+<p>O pacote GTK + 3 contém bibliotecas usadas para criar interfaces gráficas de usuário para aplicativos.
+Este pacote é conhecido por construir e funcionar corretamente usando uma plataforma LFS-8.2.O GTK 3.22 é 
+uma importante versão estável para o GTK3. A partir daí, o mecanismo de temas e as APIs são estáveis. 
+Este é um grande marco para o GTK3. Isso também significa que o Linux Mint 19.x (que será nossa principal 
+plataforma de desenvolvimento) usará a mesma versão do GTK que o LMDE 3, e distribuições que usam 
+componentes que desenvolvemos, como o Fedora, Arch..etc. Isso deve facilitar o desenvolvimento e 
+aumentar a qualidade desses componentes fora do Linux Mint.</p>
+
+</div>
+
+<footer class="rodape">
+<div class="rod-esq">
+<ul>
+<li>Criador: Victor Manuel</li>
+<li>E-mail: victormbg2000@gmail.com</li>
+<li>Endereço: R. Mariz e Barros, 273 - Praca da Bandeira,<br>
+ Rio de Janeiro - RJ, 20270-001</li>
+</ul>
+</div>
+<div class="rod-dir">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14699.980386711235!2d-43.2170606!3d-22.9135517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd94af03ac9880185!2sInstituto+Superior+de+Educa%C3%A7%C3%A3o+do+Rio+de+Janeiro!5e0!3m2!1spt-BR!2sbr!4v1522257613442" width="400" height="240"></iframe>
+</div>
+</footer>
+
+</body>
+</html>

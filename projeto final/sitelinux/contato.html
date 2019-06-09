@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Linux Brasil</title>
+<link rel="shortcut icon" href="img/favicon.ico">
+<script src="js/mascara.js"></script>
+<script src="js/conclusao.js"></script>
+<link rel="stylesheet" type="text/css" href="css/estilo4.css">
+</head>
+<body>
+<nav class="menu">
+<div class="bt1">
+<a href="index.html"><button>Pagina Inicial</button></a>
+</div>
+<div class="bt2">
+<a href="linuxMint.html"><button>Linux Mint</button></a>
+</div>
+<div class="bt3">
+<a href="linuxDebian.html"><button>Linux Debian</button></a>
+</div>
+<div class="bt4">
+<a href="contato.html"><button>Fale Conosco</button></a>
+</div>
+</nav>
+
+<div class="banner">
+<h1>Linux Brasil</h1>
+<h2>Seu site sobre Linux</h2>
+</div>
+
+<div class="conteudo">
+
+    <form name="meu_form">
+ 
+        <u><h1>Entre em contato</h1></u>
+ 
+        <p class="nome">
+            <label for="nome">Nome</label>
+			<input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+        </p>
+        <p class="endereco">
+            <label for="nome">Endereço</label>
+			<input type="text" id="enderecoid" placeholder="Endereço" required="required" name="nome" />
+        </p>
+		<p class="fone">
+			<label for="telefone">Telefone</label>
+			<input type="text" onKeyDown="return somente_numero(event)" placeholder="(xx)xxxx-xxxx" onKeyPress="mascara_tel(this)" maxlength="13"/>
+        </p>
+        <p class="cel">
+			<label for="celular">Celular</label>
+			<input type="text" onKeyDown="return somente_numero(event)" placeholder="(xx)xxxxx-xxxx" onKeyPress="mascara_cel(this)" maxlength="14"/>
+        </p>
+		<p class="cpf">
+			<label for="cpf">CPF</label>
+			<input type="text" onKeyDown="return somente_numero(event)" maxlength="14" onKeyPress="mascara_cpf(this)" placeholder="xxx.xxx.xxx-xx"/>
+        </p>	
+		<p class="rg">
+			<label for="rg">RG</label>
+			<input type="text" onKeyDown="return somente_numero(event)" maxlength="14" onKeyPress="mascara_cpf(this)" placeholder="xx.xxx.xxx-xx"/>
+        </p>
+		<p>
+            <label for="email">Email</label>
+			<input type="email" id="emailid" placeholder="xxxx@email.com" name="email" />
+        </p>
+        <p>
+            <textarea placeholder="Deixe sua opnião"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+</div>
+
+<footer class="rodape">
+<div class="rod-esq">
+<ul>
+<li>Criador: Victor Manuel</li>
+<li>E-mail: victormbg2000@gmail.com</li>
+<li>Endereço: R. Mariz e Barros, 273 - Praca da Bandeira,<br>
+ Rio de Janeiro - RJ, 20270-001</li>
+</ul>
+</div>
+<div class="rod-dir">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14699.980386711235!2d-43.2170606!3d-22.9135517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd94af03ac9880185!2sInstituto+Superior+de+Educa%C3%A7%C3%A3o+do+Rio+de+Janeiro!5e0!3m2!1spt-BR!2sbr!4v1522257613442" width="400" height="240"></iframe>
+</div>
+</footer>
+
+</body>
+</html>

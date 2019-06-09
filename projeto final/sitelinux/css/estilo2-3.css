@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	background-color:e60073;
+	position: fixed;
+	width:100%;
+	height:80px;
+	z-index: 9999;
+}
+.banner h1,h2{
+margin-top:28px;
+color:white;
+font-family: 'Press Start 2P', cursive;
+text-align:center;
+padding:10px;
+font-size:50px;
+}
+
+.banner{
+background-image:url(img/banner.jpg);
+padding:70px;
+}
+
+.conteudo h1{
+padding:20px;
+font-size:30px;
+color:e60073;	
+text-align:center;
+font-family: 'Press Start 2P', cursive;
+}
+
+.conteudo h2{
+font-size:25px;
+color:e60073;	
+text-align:center;
+font-family: 'Press Start 2P', cursive;
+}
+
+.conteudo p{
+padding:10px;
+font-size:20px;
+text-align:center;
+}
+.conteudo{
+height:1800px;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-top: 0.5em;
+    margin-bottom: 0.5 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 50px;
+	font-size:20px;
+}
+
+.conteudo img{
+width:500px;
+}
+
+.bt1 button{
+	float:left;
+	margin-left:150px;
+	border: none; 
+	background: Magenta; 
+	color: white; 
+	padding: 10px;
+	width: 200px;
+	font-size:20px;
+	margin-top: 10px;
+	border-radius: 10px; 
+	cursor: pointer; 
+	box-shadow: 3px 3px 15px #333;
+}
+
+.bt1 button:hover{ background: Pink; }
+
+.bt2 button{
+	float:left;
+	margin-left:200px;
+	border: none; 
+	background: Magenta; 
+	color: white; 
+	padding: 8px;
+	width: 250px;
+	font-size:20px;
+	margin-top: 10px;
+	border-radius: 10px; 
+	cursor: pointer; 
+	box-shadow: 3px 3px 15px #333;
+}
+
+.bt2 button:hover{ background: Pink;}
+
+.bt3 button{ 
+	float:left;
+	margin-left:200px;
+	border: none; 
+	background: Magenta; 
+	color: white; 
+	padding: 10px;
+	width: 250px;
+	font-size:20px;
+	margin-top: 10px;
+	border-radius: 10px; 
+	cursor: pointer; 
+	box-shadow: 3px 3px 15px #333;
+}
+
+.bt3 button:hover{ background: Pink;}
+
+
+.rodape{
+background-color:black;
+overflow: auto;
+}
+.rod-esq,.rod-dir {float: left; margin: 3px;}
+.rod-esq ul li{
+	color:e60073;
+    display: block;
+    list-style-type: disc;
+    margin-top: 0.5em;
+    margin-bottom: 0.5 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+	font-size:30px;
+	font-family: 'Press Start 2P', cursive;
+}
+.rod-dir{
+margin-left:120px;
+}
